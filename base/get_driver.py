@@ -26,7 +26,6 @@ class GetDriver():
             cls.driver.quit()
             print("关闭之后：", cls.driver)
 
-            # 注意：此处有一个很大坑
             cls.driver = None
             print("置空之后：", cls.driver)
 
