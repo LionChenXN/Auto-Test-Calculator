@@ -10,7 +10,7 @@ class PageCalculation(Base):
             loc = By.CSS_SELECTOR, "#simple{}".format(n)
             self.base_click(loc)
 
-    # 点击加号
+    # 点击运算符
     def page_click(self, f):
         if f == "+":
             self.base_click(page.clac_add)
